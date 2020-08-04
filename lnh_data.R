@@ -358,8 +358,8 @@ write.csv(tablaestadoor,"C:\\Users\\user\\Documents\\roy\\roche\\luis\\tablaesta
 
 ## Prestador
 
-tablaprestador<-as.data.frame(table(lnhid$ESTADO_ORIGEN))
-write.csv(tablaestadoor,"C:\\Users\\user\\Documents\\roy\\roche\\luis\\tablaestadoor_lnh.csv")
+tablaprestador<-as.data.frame(table(lnhid$PRESTADOR))
+write.csv(tablaprestador,"C:\\Users\\user\\Documents\\roy\\roche\\luis\\tablaprestador_lnh.csv")
 
 
 
